@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body{ 
+  background-image: url("../public/bg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: rgb(178, 173, 223);
+}
+
+.container {
+  width: 90vw;
+  background-color: rgba(25, 29, 59, 0.7);
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
+  height: 90vh;
+  border: 1px solid rgb(94, 87, 138);
+  display: flex;
+}
